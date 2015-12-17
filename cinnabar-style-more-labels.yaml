@@ -452,8 +452,8 @@ sources:
         #url:  //localhost:8080//osm/all/{z}/{x}/{y}.topojson
         url:  //vector.mapzen.com/osm/all/{z}/{x}/{y}.topojson?api_key=vector-tiles-vqJh-uU
     townships:
-        type: GeoJSON
-        url:  ./data/lowerhouse-users.geojson?v=2
+        type: TopoJSON
+        url:  ./data/lowerhouse-users.topojson
     townlabels:
         type: GeoJSON
         url:  ./data/lowerhouse-labelpoints.geojson
